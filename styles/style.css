@@ -127,7 +127,7 @@
   border: 1px solid var(--button-active-color, rgba(255, 0, 112));
 }
 
-.header__theme-menu-button_active:hover{
+.header__theme-menu-button_active:hover {
   border: 1px solid var(--button-active-color, rgba(255, 0, 112));
 }
 
@@ -267,6 +267,14 @@
   .reasons {
     display: grid;
     grid-template-columns: 1fr 2fr;
+  }
+
+  .suggestions__title {
+    grid-row: span 2;
+  }
+
+  .suggestions__subtitle {
+    grid-column: 2;
   }
 
   .suggestions__list {
