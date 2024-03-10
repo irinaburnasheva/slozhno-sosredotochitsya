@@ -3,15 +3,57 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-:root {
-  --accent-color: #ff8dcb;
-  --main-title-text-color: rgba(255, 194, 230, 1);
-  --main-title-shadow-color: rgba(255, 0, 112, 1);
-} 
 
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --bg-image: url(../images/cover-image-light.png);
+  --bg-color: rgba(255, 141, 203);
+  --corner-color: rgba(53, 52, 48);
+  --accent-color: rgba(255, 141, 203);
+  --decoration-text-color: rgba(255, 194, 230);
+  --main-title-color: rgba(53, 52, 48);
+  --title-bg-color: rgba(255, 141, 203);
+  --subtitle-color: rgba(53, 52, 48);
+  --subtitle-bg-color: rgba(255, 141, 203);
+  --title-color: rgba(53, 52, 48);
+  --text-color: rgba(53, 52, 48);
+  --button-text-color: rgba(53, 52, 48);
+  --button-hover-color: rgba(50, 49, 45, 0.4);
+  --button-focus-color: rgba(50, 49, 45);
+  --button-active-color: rgba(53, 52, 48);
+  --link-hover-color: rgba(53, 52, 48);
+  --linkfocus-color: rgba(53, 52, 48);
+
+  .header__record {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-image: url(../images/cover-image-light.png);
+    --bg-color: rgba(255, 141, 203);
+    --corner-color: rgba(53, 52, 48);
+    --accent-color: rgba(255, 141, 203);
+    --decoration-text-color: rgba(255, 194, 230);
+    --main-title-color: rgba(53, 52, 48);
+    --title-bg-color: rgba(255, 141, 203);
+    --subtitle-color: rgba(53, 52, 48);
+    --subtitle-bg-color: rgba(255, 141, 203);
+    --title-color: rgba(53, 52, 48);
+    --text-color: rgba(53, 52, 48);
+    --button-text-color: rgba(53, 52, 48);
+    --button-hover-color: rgba(50, 49, 45, 0.4);
+    --button-focus-color: rgba(50, 49, 45);
+    --button-active-color: rgba(53, 52, 48);
+    --link-hover-color: rgba(53, 52, 48);
+    --linkfocus-color: rgba(53, 52, 48);
+  }
+  
+  .header__record {
+    display: none;
+  }
 }

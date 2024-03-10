@@ -9,4 +9,51 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --bg-image: url(../images/cover-image-dark.png);
+  --bg-color: rgba(0, 24, 63, 0.5);
+  --corner-color: rgba(255, 0, 112);
+  --accent-color: rgba(255, 0, 112);
+  --decoration-text-color: rgba(219, 0, 255);
+  --main-title-color: rgba(0, 0, 40);
+  --title-bg-color: rgba(255, 0, 112);
+  --subtitle-color: rgba(0, 0, 40);
+  --subtitle-bg-color: rgba(255, 0, 112);
+  --title-color: rgba(255,0,112);
+  --text-color: rgba(241, 178, 206);
+  --button-text-color: rgba(255, 0, 112);
+  --button-active-color: rgba(255, 0, 112);
+  --button-hover-color: rgba(255, 0, 112, 0.4);
+  --button-focus-color: rgba(255, 0, 112);
+  --link-hover-color: rgba(241, 178, 206);
+  --link-focus-color: rgba(241, 178, 206);
+
+  .header__record {
+    display: flex;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-image: url(../images/cover-image-dark.png);
+    --bg-color: rgba(0, 24, 63, 0.5);
+    --corner-color: rgba(255, 0, 112);
+    --accent-color: rgba(255, 0, 112);
+    --decoration-text-color: rgba(219, 0, 255);
+    --main-title-color: rgba(0, 0, 40);
+    --title-bg-color: rgba(255, 0, 112);
+    --subtitle-color: rgba(0, 0, 40);
+    --subtitle-bg-color: rgba(255, 0, 112);
+    --title-color: rgba(255,0,112);
+    --text-color: rgba(241, 178, 206);
+    --button-text-color: rgba(255, 0, 112);
+    --button-active-color: rgba(255, 0, 112);
+    --button-hover-color: rgba(255, 0, 112, 0.4);
+    --button-focus-color: rgba(255, 0, 112);
+    --link-hover-color: rgba(241, 178, 206);
+    --link-focus-color: rgba(241, 178, 206);
+  }
+
+  .header__record {
+    display: flex;
+  }
 }

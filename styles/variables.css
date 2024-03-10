@@ -1,9 +1,24 @@
 :root {
-  --main-font: 'IBM Plex mono';
+  --main-font: "IBM Plex mono";
+  --bg-image: url(../images/cover-image-dark.png);
   --bg-color: rgba(0, 24, 63, 0.5);
-  --accent-color: rgba(255, 0, 112, 1);
-  --title-color:  rgba(0, 0, 40, 1);
-  --subtitle-color: rgba(255, 0, 112, 1);
-  --text-color: rgba(241, 178, 206, 1);
-  --accent-text-color: rgba(219, 0, 255, 1);
+  --corner-color: rgba(255,0,112);
+  --accent-color: rgba(255,0,112);
+  --decoration-text-color: rgba(219,0,255);
+  --main-title-color: rgba(0,0,40);
+  --title-bg-color: rgba(255,0,112);
+  --subtitle-color: rgba(0,0,40);
+  --subtitle-bg-color: rgba(255,0,112);
+  --title-color: rgba(255,0,112);
+  --text-color: rgba(241,178,206);
+  --button-text-color: rgba(255,0,112);
+  --button-active-color: rgba(255,0,112);
+  --button-hover-color: rgba(255,0,112,0.4);
+  --button-focus-color: rgba(255,0,112);
+  --link-hover-color: rgba(241,178,206);
+  --link-focus-color: rgba(241,178,206);
+  
+  --page-padding: 10px;
+  --main-inline-padding: 40px;
+  --sections-gap: 50px;
 }
